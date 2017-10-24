@@ -3,9 +3,11 @@ function happyHolidays(string) {
   return ("Happy holidays!")
 }
 function happyHolidaysTo(string) {
-  console.log (`Happy holidays, ${firstName}!`)
+  return(`Happy holidays, you!`)
 }
 function happyHolidayTo(string) {
   return("Happy Independence Day, you!")
 }
-function holidayCountdown
+function holidayCountdown(string) {
+  return("It's ${days} days until ${holiday}!")
+}
